@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		9FDCE92E2D8C157D000D60AA /* PBXContainerItemProxy */ = {
+		9FE7775C2D8ED61C00A589F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9FDCE90F2D8C157C000D60AA /* Project object */;
+			containerPortal = 9FE7773D2D8ED61B00A589F9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9FDCE9162D8C157C000D60AA;
+			remoteGlobalIDString = 9FE777442D8ED61B00A589F9;
 			remoteInfo = noter;
 		};
-		9FDCE9382D8C157D000D60AA /* PBXContainerItemProxy */ = {
+		9FE777662D8ED61C00A589F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9FDCE90F2D8C157C000D60AA /* Project object */;
+			containerPortal = 9FE7773D2D8ED61B00A589F9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9FDCE9162D8C157C000D60AA;
+			remoteGlobalIDString = 9FE777442D8ED61B00A589F9;
 			remoteInfo = noter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9FDCE9172D8C157C000D60AA /* noter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FDCE92D2D8C157D000D60AA /* noterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FDCE9372D8C157D000D60AA /* noterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE777452D8ED61B00A589F9 /* noter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE7775B2D8ED61C00A589F9 /* noterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE777652D8ED61C00A589F9 /* noterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9FDCE9192D8C157C000D60AA /* noter */ = {
+		9FE777472D8ED61B00A589F9 /* noter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = noter;
 			sourceTree = "<group>";
 		};
-		9FDCE9302D8C157D000D60AA /* noterTests */ = {
+		9FE7775E2D8ED61C00A589F9 /* noterTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = noterTests;
 			sourceTree = "<group>";
 		};
-		9FDCE93A2D8C157D000D60AA /* noterUITests */ = {
+		9FE777682D8ED61C00A589F9 /* noterUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = noterUITests;
 			sourceTree = "<group>";
@@ -48,21 +48,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9FDCE9142D8C157C000D60AA /* Frameworks */ = {
+		9FE777422D8ED61B00A589F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FDCE92A2D8C157D000D60AA /* Frameworks */ = {
+		9FE777582D8ED61C00A589F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FDCE9342D8C157D000D60AA /* Frameworks */ = {
+		9FE777622D8ED61C00A589F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9FDCE90E2D8C157C000D60AA = {
+		9FE7773C2D8ED61B00A589F9 = {
 			isa = PBXGroup;
 			children = (
-				9FDCE9192D8C157C000D60AA /* noter */,
-				9FDCE9302D8C157D000D60AA /* noterTests */,
-				9FDCE93A2D8C157D000D60AA /* noterUITests */,
-				9FDCE9182D8C157C000D60AA /* Products */,
+				9FE777472D8ED61B00A589F9 /* noter */,
+				9FE7775E2D8ED61C00A589F9 /* noterTests */,
+				9FE777682D8ED61C00A589F9 /* noterUITests */,
+				9FE777462D8ED61B00A589F9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9FDCE9182D8C157C000D60AA /* Products */ = {
+		9FE777462D8ED61B00A589F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FDCE9172D8C157C000D60AA /* noter.app */,
-				9FDCE92D2D8C157D000D60AA /* noterTests.xctest */,
-				9FDCE9372D8C157D000D60AA /* noterUITests.xctest */,
+				9FE777452D8ED61B00A589F9 /* noter.app */,
+				9FE7775B2D8ED61C00A589F9 /* noterTests.xctest */,
+				9FE777652D8ED61C00A589F9 /* noterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9FDCE9162D8C157C000D60AA /* noter */ = {
+		9FE777442D8ED61B00A589F9 /* noter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FDCE9412D8C157D000D60AA /* Build configuration list for PBXNativeTarget "noter" */;
+			buildConfigurationList = 9FE7776F2D8ED61C00A589F9 /* Build configuration list for PBXNativeTarget "noter" */;
 			buildPhases = (
-				9FDCE9132D8C157C000D60AA /* Sources */,
-				9FDCE9142D8C157C000D60AA /* Frameworks */,
-				9FDCE9152D8C157C000D60AA /* Resources */,
+				9FE777412D8ED61B00A589F9 /* Sources */,
+				9FE777422D8ED61B00A589F9 /* Frameworks */,
+				9FE777432D8ED61B00A589F9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9FDCE9192D8C157C000D60AA /* noter */,
+				9FE777472D8ED61B00A589F9 /* noter */,
 			);
 			name = noter;
 			packageProductDependencies = (
 			);
 			productName = noter;
-			productReference = 9FDCE9172D8C157C000D60AA /* noter.app */;
+			productReference = 9FE777452D8ED61B00A589F9 /* noter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9FDCE92C2D8C157D000D60AA /* noterTests */ = {
+		9FE7775A2D8ED61C00A589F9 /* noterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FDCE9442D8C157D000D60AA /* Build configuration list for PBXNativeTarget "noterTests" */;
+			buildConfigurationList = 9FE777722D8ED61C00A589F9 /* Build configuration list for PBXNativeTarget "noterTests" */;
 			buildPhases = (
-				9FDCE9292D8C157D000D60AA /* Sources */,
-				9FDCE92A2D8C157D000D60AA /* Frameworks */,
-				9FDCE92B2D8C157D000D60AA /* Resources */,
+				9FE777572D8ED61C00A589F9 /* Sources */,
+				9FE777582D8ED61C00A589F9 /* Frameworks */,
+				9FE777592D8ED61C00A589F9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9FDCE92F2D8C157D000D60AA /* PBXTargetDependency */,
+				9FE7775D2D8ED61C00A589F9 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				9FDCE9302D8C157D000D60AA /* noterTests */,
+				9FE7775E2D8ED61C00A589F9 /* noterTests */,
 			);
 			name = noterTests;
 			packageProductDependencies = (
 			);
 			productName = noterTests;
-			productReference = 9FDCE92D2D8C157D000D60AA /* noterTests.xctest */;
+			productReference = 9FE7775B2D8ED61C00A589F9 /* noterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9FDCE9362D8C157D000D60AA /* noterUITests */ = {
+		9FE777642D8ED61C00A589F9 /* noterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FDCE9472D8C157D000D60AA /* Build configuration list for PBXNativeTarget "noterUITests" */;
+			buildConfigurationList = 9FE777752D8ED61C00A589F9 /* Build configuration list for PBXNativeTarget "noterUITests" */;
 			buildPhases = (
-				9FDCE9332D8C157D000D60AA /* Sources */,
-				9FDCE9342D8C157D000D60AA /* Frameworks */,
-				9FDCE9352D8C157D000D60AA /* Resources */,
+				9FE777612D8ED61C00A589F9 /* Sources */,
+				9FE777622D8ED61C00A589F9 /* Frameworks */,
+				9FE777632D8ED61C00A589F9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9FDCE9392D8C157D000D60AA /* PBXTargetDependency */,
+				9FE777672D8ED61C00A589F9 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				9FDCE93A2D8C157D000D60AA /* noterUITests */,
+				9FE777682D8ED61C00A589F9 /* noterUITests */,
 			);
 			name = noterUITests;
 			packageProductDependencies = (
 			);
 			productName = noterUITests;
-			productReference = 9FDCE9372D8C157D000D60AA /* noterUITests.xctest */;
+			productReference = 9FE777652D8ED61C00A589F9 /* noterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9FDCE90F2D8C157C000D60AA /* Project object */ = {
+		9FE7773D2D8ED61B00A589F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					9FDCE9162D8C157C000D60AA = {
+					9FE777442D8ED61B00A589F9 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					9FDCE92C2D8C157D000D60AA = {
+					9FE7775A2D8ED61C00A589F9 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 9FDCE9162D8C157C000D60AA;
+						TestTargetID = 9FE777442D8ED61B00A589F9;
 					};
-					9FDCE9362D8C157D000D60AA = {
+					9FE777642D8ED61C00A589F9 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 9FDCE9162D8C157C000D60AA;
+						TestTargetID = 9FE777442D8ED61B00A589F9;
 					};
 				};
 			};
-			buildConfigurationList = 9FDCE9122D8C157C000D60AA /* Build configuration list for PBXProject "noter" */;
+			buildConfigurationList = 9FE777402D8ED61B00A589F9 /* Build configuration list for PBXProject "noter" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 9FDCE90E2D8C157C000D60AA;
+			mainGroup = 9FE7773C2D8ED61B00A589F9;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 9FDCE9182D8C157C000D60AA /* Products */;
+			productRefGroup = 9FE777462D8ED61B00A589F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9FDCE9162D8C157C000D60AA /* noter */,
-				9FDCE92C2D8C157D000D60AA /* noterTests */,
-				9FDCE9362D8C157D000D60AA /* noterUITests */,
+				9FE777442D8ED61B00A589F9 /* noter */,
+				9FE7775A2D8ED61C00A589F9 /* noterTests */,
+				9FE777642D8ED61C00A589F9 /* noterUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9FDCE9152D8C157C000D60AA /* Resources */ = {
+		9FE777432D8ED61B00A589F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FDCE92B2D8C157D000D60AA /* Resources */ = {
+		9FE777592D8ED61C00A589F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FDCE9352D8C157D000D60AA /* Resources */ = {
+		9FE777632D8ED61C00A589F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9FDCE9132D8C157C000D60AA /* Sources */ = {
+		9FE777412D8ED61B00A589F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FDCE9292D8C157D000D60AA /* Sources */ = {
+		9FE777572D8ED61C00A589F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FDCE9332D8C157D000D60AA /* Sources */ = {
+		9FE777612D8ED61C00A589F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9FDCE92F2D8C157D000D60AA /* PBXTargetDependency */ = {
+		9FE7775D2D8ED61C00A589F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9FDCE9162D8C157C000D60AA /* noter */;
-			targetProxy = 9FDCE92E2D8C157D000D60AA /* PBXContainerItemProxy */;
+			target = 9FE777442D8ED61B00A589F9 /* noter */;
+			targetProxy = 9FE7775C2D8ED61C00A589F9 /* PBXContainerItemProxy */;
 		};
-		9FDCE9392D8C157D000D60AA /* PBXTargetDependency */ = {
+		9FE777672D8ED61C00A589F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9FDCE9162D8C157C000D60AA /* noter */;
-			targetProxy = 9FDCE9382D8C157D000D60AA /* PBXContainerItemProxy */;
+			target = 9FE777442D8ED61B00A589F9 /* noter */;
+			targetProxy = 9FE777662D8ED61C00A589F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		9FDCE93F2D8C157D000D60AA /* Debug */ = {
+		9FE7776D2D8ED61C00A589F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,7 +330,7 @@
 			};
 			name = Debug;
 		};
-		9FDCE9402D8C157D000D60AA /* Release */ = {
+		9FE7776E2D8ED61C00A589F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -383,7 +383,7 @@
 			};
 			name = Release;
 		};
-		9FDCE9422D8C157D000D60AA /* Debug */ = {
+		9FE777702D8ED61C00A589F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -422,7 +422,7 @@
 			};
 			name = Debug;
 		};
-		9FDCE9432D8C157D000D60AA /* Release */ = {
+		9FE777712D8ED61C00A589F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -461,7 +461,7 @@
 			};
 			name = Release;
 		};
-		9FDCE9452D8C157D000D60AA /* Debug */ = {
+		9FE777732D8ED61C00A589F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,7 +484,7 @@
 			};
 			name = Debug;
 		};
-		9FDCE9462D8C157D000D60AA /* Release */ = {
+		9FE777742D8ED61C00A589F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,7 +507,7 @@
 			};
 			name = Release;
 		};
-		9FDCE9482D8C157D000D60AA /* Debug */ = {
+		9FE777762D8ED61C00A589F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -529,7 +529,7 @@
 			};
 			name = Debug;
 		};
-		9FDCE9492D8C157D000D60AA /* Release */ = {
+		9FE777772D8ED61C00A589F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -554,43 +554,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FDCE9122D8C157C000D60AA /* Build configuration list for PBXProject "noter" */ = {
+		9FE777402D8ED61B00A589F9 /* Build configuration list for PBXProject "noter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FDCE93F2D8C157D000D60AA /* Debug */,
-				9FDCE9402D8C157D000D60AA /* Release */,
+				9FE7776D2D8ED61C00A589F9 /* Debug */,
+				9FE7776E2D8ED61C00A589F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FDCE9412D8C157D000D60AA /* Build configuration list for PBXNativeTarget "noter" */ = {
+		9FE7776F2D8ED61C00A589F9 /* Build configuration list for PBXNativeTarget "noter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FDCE9422D8C157D000D60AA /* Debug */,
-				9FDCE9432D8C157D000D60AA /* Release */,
+				9FE777702D8ED61C00A589F9 /* Debug */,
+				9FE777712D8ED61C00A589F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FDCE9442D8C157D000D60AA /* Build configuration list for PBXNativeTarget "noterTests" */ = {
+		9FE777722D8ED61C00A589F9 /* Build configuration list for PBXNativeTarget "noterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FDCE9452D8C157D000D60AA /* Debug */,
-				9FDCE9462D8C157D000D60AA /* Release */,
+				9FE777732D8ED61C00A589F9 /* Debug */,
+				9FE777742D8ED61C00A589F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FDCE9472D8C157D000D60AA /* Build configuration list for PBXNativeTarget "noterUITests" */ = {
+		9FE777752D8ED61C00A589F9 /* Build configuration list for PBXNativeTarget "noterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FDCE9482D8C157D000D60AA /* Debug */,
-				9FDCE9492D8C157D000D60AA /* Release */,
+				9FE777762D8ED61C00A589F9 /* Debug */,
+				9FE777772D8ED61C00A589F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9FDCE90F2D8C157C000D60AA /* Project object */;
+	rootObject = 9FE7773D2D8ED61B00A589F9 /* Project object */;
 }
