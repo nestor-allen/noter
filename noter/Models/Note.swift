@@ -13,7 +13,7 @@ enum NoteType: String, Codable{
     case handwritten
 }
 
-struct Note: Identifiable, Codable {
+struct Note: Identifiable, Codable, Hashable {
     let id: UUID
     var title: String
     var type: NoteType

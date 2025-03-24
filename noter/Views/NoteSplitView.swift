@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct NoteListView: View {
+    @StateObject private var viewModel = NoteViewModel()
+    
+    
     var body: some View {
         List {
-            /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Content@*/Text("Content")/*@END_MENU_TOKEN@*/
+            
         }
     }
+    
 }
 
 #Preview {
