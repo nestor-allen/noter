@@ -10,18 +10,19 @@ import SwiftUI
 struct NoteListView: View {
     @StateObject private var viewModel = NoteManagerViewModel()
     @State private var showingSheet = false
-    
+
     var body: some View {
+        // Using a navigation stack and will use links to all the other pages (notes/folders)
         NavigationStack {
             List {
-                ForEach(viewModel.folders) { folder in
-                    Section(header: Text(folder.name)) {
-                        ForEach(folder.notes) { note in
-                            Text(note.title)
-                        }
-                    }
+                //This gives me the list of folders and notes
+                ForEach($viewModel.folders) { $folder in
+                    NavigationLink(
+                        folder.name,
+                        destination: FolderListView(folder: $folder, folderViewModel: viewModel)
+                    )
                 }
-                        
+
                 if !viewModel.notes.isEmpty {
                     Section(header: Text("Unfiled Notes")) {
                         ForEach(viewModel.notes) { note in
@@ -32,51 +33,21 @@ struct NoteListView: View {
             }
             .navigationTitle("NOTER")
             .navigationBarTitleDisplayMode(.inline)
-            .toolbar{
+            .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                        Button("+") {
-                            showingSheet.toggle()
-                        }
-                        .sheet(isPresented: $showingSheet) {
-                            AddNoteSheetView()
-                        }
+                    Button("+") {
+                        showingSheet.toggle()
+                    }
+                    .sheet(isPresented: $showingSheet) {
+                        AddNoteSheetView(viewModel: viewModel, parentFolder: nil)
+                    }
                 }
             }
         }
     }
-    
+
 }
 
-
-struct AddNoteSheetView: View {
-    
-    @Environment(\.dismiss) var dismiss
-    
-    var body: some View {
-        HStack{
-            Button("Cancel") {
-                dismiss()
-            }
-            .font(.title)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .padding(.leading)
-            .padding(.top)
-            Button ("Add") {
-                
-            }
-            .font(.title)
-            .frame(maxWidth: .infinity, alignment: .trailing)
-            .padding(.trailing)
-            .padding(.top)
-        }
-        Form {
-            Section("Add"){
-                
-            }
-        }
-    }
-    
-}
 
 #Preview {
     NoteListView()

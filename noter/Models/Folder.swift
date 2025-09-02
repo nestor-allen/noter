@@ -11,4 +11,5 @@ struct Folder: Identifiable, Codable, Hashable {
     let id: UUID
     var name: String
     var notes: [Note]
+    var subfolders: [Folder]
 }
